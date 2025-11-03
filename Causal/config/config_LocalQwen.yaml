@@ -1,0 +1,21 @@
+llm:
+  type: localqwen
+  model_path: "/opt/data/private/3d/qwen2.5-14B-merged/700"
+  models:
+    qwen: "/opt/data/private/3d/qwen2.5-14B-merged/700"
+    deepseek: null
+    openai: null
+    anthropic: null
+    openrouter: null
+  api_keys:
+    qwen: ""  # 本地模型不需要 API key
+    deepseek: ""
+    openai: ""
+    anthropic: ""
+    openrouter: ""
+  temperature: 0.7
+
+benchmark:
+  checkpoint: "checkpoints"
+  verbose: true
+  output_pattern: "results/{dataset_name}_{model}.json"
