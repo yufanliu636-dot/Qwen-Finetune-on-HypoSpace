@@ -1,0 +1,13 @@
+llm:
+  type: openrouter
+  models:
+    openrouter: "deepseek/deepseek-r1"
+  api_keys:
+    openrouter: "sk-52ba5e54d5cd498b833525f2f45b744a"
+  temperature: 0.7
+
+benchmark:
+  checkpoint: "checkpoints"
+  verbose: true
+  output_pattern: "results/{dataset_name}_{model}.json"
+
