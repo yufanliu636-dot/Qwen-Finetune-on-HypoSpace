@@ -98,7 +98,7 @@ We fine-tune **Qwen2.5-14B-Instruct** under the QLoRA framework:
 │   └── BooleanMergeWeight/
 │       └── merge_weight_2-Copy1.py
 │
-└── figures/
+└── Figs/
     └── overall_bars.png
 ~~~
 
