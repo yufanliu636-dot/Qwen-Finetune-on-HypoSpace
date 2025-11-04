@@ -25,8 +25,7 @@ All values are reported in [0,1].
 **Interpretation.**  
 Our pipeline yields consistent gains on **Causal** (Validity +0.30, Recovery +0.23; parse success ≈ **1.00**). On **3D**, Validity increases (+0.12) and Recovery improves slightly (+0.01), with Uniqueness decreasing (−0.28) under stricter formatting, validation, and de-duplication; parse success rises from **0.81** to **0.99**. On **Boolean**, Validity improves substantially (+0.38), Recovery improves moderately (+0.08), while Uniqueness is slightly lower than the baseline (−0.04).
 
-
-**Figure placeholders:**  
+  
 ![Overall bars](Figs/overall_bars.png)  
 
 ---
