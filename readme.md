@@ -27,7 +27,7 @@ Our pipeline yields consistent gains on **Causal** (Validity +0.30, Recovery +0.
 
 
 **Figure placeholders:**  
-![Overall bars](figures/overall_bars.png)  
+![Overall bars](Figs/overall_bars.png)  
 
 ---
 
